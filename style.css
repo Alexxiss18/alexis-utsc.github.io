@@ -1,0 +1,67 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Encabezado */
+h1 {
+    font-size: 2.5rem;
+    color: #0077b6;
+    margin-bottom: 20px;
+}
+
+/* Párrafos */
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Botones de redes sociales */
+.social-buttons {
+    margin-top: 25px;
+}
+
+.social-buttons a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    background: #0077b6;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    transition: 0.3s ease;
+}
+
+/* Colores personalizados para cada red */
+.social-buttons a.facebook { background: #1877F2; }
+.social-buttons a.instagram { background: #E4405F; }
+.social-buttons a.github { background: #333; }
+.social-buttons a.linkedin { background: #0A66C2; }
+
+.social-buttons a:hover {
+    transform: scale(1.1);
+    opacity: 0.85;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #555;
+}
